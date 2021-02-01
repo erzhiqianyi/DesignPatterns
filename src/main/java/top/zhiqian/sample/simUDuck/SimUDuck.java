@@ -1,6 +1,6 @@
 package top.zhiqian.sample.simUDuck;
 
-public abstract class Duck {
+public abstract class SimUDuck {
 
     public void quack() {
         System.out.println(" I am duck , quack  , quack");

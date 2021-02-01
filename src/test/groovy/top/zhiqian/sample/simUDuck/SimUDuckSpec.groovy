@@ -4,15 +4,17 @@ import spock.lang.Narrative
 import spock.lang.Specification
 import spock.lang.Subject
 import spock.lang.Title
+import spock.lang.Unroll
 
 @Title("Unit test for duck behavior")
 @Narrative(""" create ducks and test their behavior """)
-@Subject(Duck)
+@Subject(SimUDuck)
+@Unroll
 class SimUDuckSpec extends Specification {
 
     def "The Mallard duck can quack ,swim and fly"() {
         given: "A Mallard duck "
-        Duck duck = Mock(MallardDuck)
+        SimUDuck duck = Mock(MallardSimUDuck)
 
         when: "mallard duck quack ,swim and fly"
         duck.display()
@@ -30,7 +32,7 @@ class SimUDuckSpec extends Specification {
 
     def "The Red Head  duck can quack ,swim and fly"() {
         given: "A red head duck  duck "
-        Duck duck = Mock(RedHeadDuck)
+        SimUDuck duck = Mock(RedHeadSimUDuck)
 
         when: "the  duck quack ,swim and fly"
         duck.display()
@@ -47,7 +49,7 @@ class SimUDuckSpec extends Specification {
 
     def "The Rubber  duck can quack ,swim "() {
         given: "A red head duck  duck "
-        Duck duck = Mock(RubberDuck)
+        SimUDuck duck = Mock(RubberSimUDuck)
 
         when: "the  duck quack ,swim and can't fly"
         duck.display()

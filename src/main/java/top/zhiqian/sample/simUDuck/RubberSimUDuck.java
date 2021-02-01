@@ -1,6 +1,6 @@
 package top.zhiqian.sample.simUDuck;
 
-public class RubberDuck extends Duck {
+public class RubberSimUDuck extends SimUDuck {
 
     @Override
     public void quack() {

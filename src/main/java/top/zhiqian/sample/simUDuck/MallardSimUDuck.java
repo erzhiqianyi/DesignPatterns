@@ -1,6 +1,6 @@
 package top.zhiqian.sample.simUDuck;
 
-public class MallardDuck extends Duck {
+public class MallardSimUDuck extends SimUDuck {
 
 
     @Override
