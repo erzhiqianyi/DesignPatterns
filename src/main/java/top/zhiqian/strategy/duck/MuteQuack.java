@@ -1,4 +1,6 @@
-package top.zhiqian.strategy;
+package top.zhiqian.strategy.duck;
+
+import top.zhiqian.strategy.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
 

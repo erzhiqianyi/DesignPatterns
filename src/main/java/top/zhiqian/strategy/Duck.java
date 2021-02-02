@@ -12,7 +12,7 @@ public abstract class Duck {
         quackBehavior.quack();
     }
 
-    abstract void display();
+    public abstract void display();
 
     public void performFly() {
         flyBehavior.fly();
