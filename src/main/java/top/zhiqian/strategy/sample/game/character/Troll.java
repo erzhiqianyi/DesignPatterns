@@ -1,7 +1,7 @@
-package top.zhiqian.sample.game.character;
+package top.zhiqian.strategy.sample.game.character;
 
-import top.zhiqian.sample.game.Character;
-import top.zhiqian.sample.game.weapon.AxeBehavior;
+import top.zhiqian.strategy.sample.game.Character;
+import top.zhiqian.strategy.sample.game.weapon.AxeBehavior;
 
 public class Troll extends Character {
 

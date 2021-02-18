@@ -1,6 +1,6 @@
-package top.zhiqian.sample.game.weapon;
+package top.zhiqian.strategy.sample.game.weapon;
 
-import top.zhiqian.sample.game.WeaponBehavior;
+import top.zhiqian.strategy.sample.game.WeaponBehavior;
 
 public class SwordBehavior implements WeaponBehavior {
     @Override

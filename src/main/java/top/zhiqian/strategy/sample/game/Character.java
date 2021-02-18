@@ -1,4 +1,4 @@
-package top.zhiqian.sample.game;
+package top.zhiqian.strategy.sample.game;
 
 public abstract class Character {
 

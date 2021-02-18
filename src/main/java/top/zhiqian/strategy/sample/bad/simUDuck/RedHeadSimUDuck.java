@@ -1,4 +1,4 @@
-package top.zhiqian.sample.simUDuck;
+package top.zhiqian.strategy.sample.bad.simUDuck;
 
 public class RedHeadSimUDuck extends SimUDuck {
 

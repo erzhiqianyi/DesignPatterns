@@ -1,14 +1,14 @@
-package top.zhiqian.sample.game
+package top.zhiqian.strategy.sample.game
 
 import spock.lang.*
-import top.zhiqian.sample.game.character.King
-import top.zhiqian.sample.game.character.Knight
-import top.zhiqian.sample.game.character.Queue
-import top.zhiqian.sample.game.character.Troll
-import top.zhiqian.sample.game.weapon.AxeBehavior
-import top.zhiqian.sample.game.weapon.BowAndArrowBehavior
-import top.zhiqian.sample.game.weapon.KnifeBehavior
-import top.zhiqian.sample.game.weapon.SwordBehavior
+import top.zhiqian.strategy.sample.game.character.King
+import top.zhiqian.strategy.sample.game.character.Knight
+import top.zhiqian.strategy.sample.game.character.Queue
+import top.zhiqian.strategy.sample.game.character.Troll
+import top.zhiqian.strategy.sample.game.weapon.AxeBehavior
+import top.zhiqian.strategy.sample.game.weapon.BowAndArrowBehavior
+import top.zhiqian.strategy.sample.game.weapon.KnifeBehavior
+import top.zhiqian.strategy.sample.game.weapon.SwordBehavior
 
 @Title("Unit test for character fight behavior ")
 @Narrative(""" create characters and test their behavior """)
