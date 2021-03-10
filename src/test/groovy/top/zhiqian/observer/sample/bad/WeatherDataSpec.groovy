@@ -4,6 +4,10 @@ import spock.lang.Narrative
 import spock.lang.Specification
 import spock.lang.Subject
 import spock.lang.Title
+import top.zhiqian.observer.sample.bad.weather.CurrentConditionsDisplay
+import top.zhiqian.observer.sample.bad.weather.ForecastDisplay
+import top.zhiqian.observer.sample.bad.weather.StatisticsDisplay
+import top.zhiqian.observer.sample.bad.weather.WeatherData
 
 @Title("Unit test weather display ")
 @Narrative(""" when measurements Changed, weather display should updated  """)

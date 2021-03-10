@@ -1,4 +1,4 @@
-package top.zhiqian.observer.sample.bad;
+package top.zhiqian.observer.sample.bad.weather;
 
 class StatisticsDisplay implements WeatherDisplay {
 
